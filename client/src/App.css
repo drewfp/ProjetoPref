@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.register-container {
+  padding: 30px 50px;
+  width: max-content;
+  height: max-content;
+  margin-top: 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+  display: grid;
+
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: fantasy;
+}
+
+.register-input {
+  display: block;
+  margin: 10px auto;
+  padding: 9px 0;
+  
+}
+
+.register-button {
+  padding: 2px 5px;
+}
+
+.App{
+  width: 100%;
+  max-width: 100vw;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner {
+  display: flex;
+}
+
+.item {
+  min-height: 200px;
+  min-width: 400px;
+  padding: 14px;
+}
+
+.item img{
+  width: 100%;
+  height: 90%;
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+}
+.css-1vazdj7-MuiPaper-root-MuiAppBar-root {
+  width: 80vw !important;
+}
+
+.css-cuefkz-MuiContainer-root {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+
+body {
+  background-color: #F5C8BD !important; /* replace with your desired color */
+}
+
